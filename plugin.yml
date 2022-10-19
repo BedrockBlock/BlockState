@@ -1,0 +1,7 @@
+---
+name: BlockState
+version: 0.0.1
+main: bedrockblock\BlockState\Loader
+api: 5.0.0-ALPHA4
+src-namespace-prefix: bedrockblock\BlockState
+...
