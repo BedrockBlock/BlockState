@@ -4,12 +4,7 @@ declare(strict_types = 1);
 
 namespace bedrockblock\BlockState;
 
-use pocketmine\nbt\tag\{
-	ByteTag,
-	IntTag,
-	StringTag,
-	Tag
-};
+use pocketmine\nbt\tag\Tag;
 use pocketmine\scheduler\AsyncTask;
 use pocketmine\data\bedrock\block\BlockStateData;
 
