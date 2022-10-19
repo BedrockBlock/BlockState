@@ -57,15 +57,12 @@ final class AsyncBlockStateTask extends AsyncTask{
 		foreach($states as $state){
 			$s = $state->getStateData();
 			$name = $s->getName();
-			$stateData[$name][] = [
+			$stateData[$name][] = $arr = [
 				'meta' => $state->getMeta(),
 				'state' => $nbtsToarray($s->getStates())
 			];
 			if(!in_array($name, $registerNames, true)){
-				$filterStateData[$name][] = [
-					'meta' => $state->getMeta(),
-					'state' => $nbtsToarray($s->getStates())
-				];
+				$filterStateData[$name][] = $arr;
 			}
 		}
 
