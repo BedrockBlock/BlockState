@@ -14,6 +14,7 @@ use function file_put_contents;
 use function yaml_emit;
 use function igbinary_serialize;
 use function igbinary_unserialize;
+use function ksort;
 
 final class AsyncBlockStateTask extends AsyncTask{
 
@@ -65,6 +66,9 @@ final class AsyncBlockStateTask extends AsyncTask{
 				$filterStateData[$name][] = $arr;
 			}
 		}
+
+		ksort($stateData);
+		ksort($filterStateData);
 
 		file_put_contents($this->path . self::FILENAME, yaml_emit($stateData));
 		file_put_contents($this->path . 'Unregister' . self::FILENAME, yaml_emit($filterStateData));
