@@ -1,840 +1,844 @@
 ---
-minecraft:small_amethyst_bud:
-- meta: 0
-  state:
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    facing_direction:
-      type: Int
-      value: 5
-minecraft:respawn_anchor:
-- meta: 0
-  state:
-    respawn_anchor_charge:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    respawn_anchor_charge:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    respawn_anchor_charge:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    respawn_anchor_charge:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    respawn_anchor_charge:
-      type: Int
-      value: 4
-minecraft:honey_block:
+minecraft:allow:
 - meta: 0
   state: []
-minecraft:dripstone_block:
+minecraft:amethyst_cluster:
+- meta: 0
+  state:
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    facing_direction:
+      type: Int
+      value: 5
+minecraft:azalea:
 - meta: 0
   state: []
-minecraft:observer:
+minecraft:azalea_leaves:
 - meta: 0
   state:
-    facing_direction:
-      type: Int
+    persistent_bit:
+      type: Byte
       value: 0
-    powered_bit:
+    update_bit:
       type: Byte
       value: 0
 - meta: 1
   state:
-    facing_direction:
-      type: Int
-      value: 1
-    powered_bit:
+    persistent_bit:
       type: Byte
       value: 0
+    update_bit:
+      type: Byte
+      value: 1
 - meta: 2
   state:
-    facing_direction:
-      type: Int
-      value: 2
-    powered_bit:
+    persistent_bit:
+      type: Byte
+      value: 1
+    update_bit:
       type: Byte
       value: 0
 - meta: 3
   state:
-    facing_direction:
-      type: Int
-      value: 3
-    powered_bit:
-      type: Byte
-      value: 0
-- meta: 4
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-    powered_bit:
-      type: Byte
-      value: 0
-- meta: 5
-  state:
-    facing_direction:
-      type: Int
-      value: 5
-    powered_bit:
-      type: Byte
-      value: 0
-- meta: 8
-  state:
-    facing_direction:
-      type: Int
-      value: 0
-    powered_bit:
+    persistent_bit:
       type: Byte
       value: 1
-- meta: 9
-  state:
-    facing_direction:
-      type: Int
-      value: 1
-    powered_bit:
+    update_bit:
       type: Byte
       value: 1
-- meta: 10
-  state:
-    facing_direction:
-      type: Int
-      value: 2
-    powered_bit:
-      type: Byte
-      value: 1
-- meta: 11
-  state:
-    facing_direction:
-      type: Int
-      value: 3
-    powered_bit:
-      type: Byte
-      value: 1
-- meta: 12
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-    powered_bit:
-      type: Byte
-      value: 1
-- meta: 13
-  state:
-    facing_direction:
-      type: Int
-      value: 5
-    powered_bit:
-      type: Byte
-      value: 1
-minecraft:scaffolding:
+minecraft:azalea_leaves_flowered:
 - meta: 0
   state:
-    stability:
-      type: Int
+    persistent_bit:
+      type: Byte
       value: 0
-    stability_check:
+    update_bit:
       type: Byte
       value: 0
 - meta: 1
   state:
-    stability:
-      type: Int
-      value: 1
-    stability_check:
+    persistent_bit:
       type: Byte
       value: 0
+    update_bit:
+      type: Byte
+      value: 1
 - meta: 2
   state:
-    stability:
-      type: Int
-      value: 2
-    stability_check:
+    persistent_bit:
+      type: Byte
+      value: 1
+    update_bit:
       type: Byte
       value: 0
 - meta: 3
   state:
-    stability:
+    persistent_bit:
+      type: Byte
+      value: 1
+    update_bit:
+      type: Byte
+      value: 1
+minecraft:bee_nest:
+- meta: 0
+  state:
+    direction:
+      type: Int
+      value: 0
+    honey_level:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    direction:
+      type: Int
+      value: 1
+    honey_level:
+      type: Int
+      value: 0
+- meta: 2
+  state:
+    direction:
+      type: Int
+      value: 2
+    honey_level:
+      type: Int
+      value: 0
+- meta: 3
+  state:
+    direction:
       type: Int
       value: 3
-    stability_check:
-      type: Byte
+    honey_level:
+      type: Int
       value: 0
 - meta: 4
   state:
-    stability:
+    direction:
       type: Int
-      value: 4
-    stability_check:
-      type: Byte
       value: 0
+    honey_level:
+      type: Int
+      value: 1
 - meta: 5
   state:
-    stability:
+    direction:
       type: Int
-      value: 5
-    stability_check:
-      type: Byte
-      value: 0
+      value: 1
+    honey_level:
+      type: Int
+      value: 1
 - meta: 6
   state:
-    stability:
-      type: Int
-      value: 6
-    stability_check:
-      type: Byte
-      value: 0
-- meta: 7
-  state:
-    stability:
-      type: Int
-      value: 7
-    stability_check:
-      type: Byte
-      value: 0
-- meta: 8
-  state:
-    stability:
-      type: Int
-      value: 0
-    stability_check:
-      type: Byte
-      value: 1
-- meta: 9
-  state:
-    stability:
-      type: Int
-      value: 1
-    stability_check:
-      type: Byte
-      value: 1
-- meta: 10
-  state:
-    stability:
+    direction:
       type: Int
       value: 2
-    stability_check:
-      type: Byte
+    honey_level:
+      type: Int
       value: 1
-- meta: 11
+- meta: 7
   state:
-    stability:
+    direction:
       type: Int
       value: 3
-    stability_check:
-      type: Byte
+    honey_level:
+      type: Int
       value: 1
+- meta: 8
+  state:
+    direction:
+      type: Int
+      value: 0
+    honey_level:
+      type: Int
+      value: 2
+- meta: 9
+  state:
+    direction:
+      type: Int
+      value: 1
+    honey_level:
+      type: Int
+      value: 2
+- meta: 10
+  state:
+    direction:
+      type: Int
+      value: 2
+    honey_level:
+      type: Int
+      value: 2
+- meta: 11
+  state:
+    direction:
+      type: Int
+      value: 3
+    honey_level:
+      type: Int
+      value: 2
 - meta: 12
   state:
-    stability:
+    direction:
       type: Int
-      value: 4
-    stability_check:
-      type: Byte
-      value: 1
+      value: 0
+    honey_level:
+      type: Int
+      value: 3
 - meta: 13
   state:
-    stability:
+    direction:
       type: Int
-      value: 5
-    stability_check:
-      type: Byte
       value: 1
+    honey_level:
+      type: Int
+      value: 3
 - meta: 14
   state:
-    stability:
+    direction:
       type: Int
-      value: 6
-    stability_check:
-      type: Byte
-      value: 1
+      value: 2
+    honey_level:
+      type: Int
+      value: 3
 - meta: 15
   state:
-    stability:
-      type: Int
-      value: 7
-    stability_check:
-      type: Byte
-      value: 1
-minecraft:sculk_catalyst:
-- meta: 0
-  state:
-    bloom:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    bloom:
-      type: Byte
-      value: 1
-minecraft:crimson_nylium:
-- meta: 0
-  state: []
-minecraft:structure_void:
-- meta: 0
-  state:
-    structure_void_type:
-      type: String
-      value: void
-- meta: 1
-  state:
-    structure_void_type:
-      type: String
-      value: air
-minecraft:conduit:
-- meta: 0
-  state: []
-minecraft:client_request_placeholder_block:
-- meta: 0
-  state: []
-minecraft:small_dripleaf_block:
-- meta: 0
-  state:
-    direction:
-      type: Int
-      value: 0
-    upper_block_bit:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    direction:
-      type: Int
-      value: 0
-    upper_block_bit:
-      type: Byte
-      value: 1
-- meta: 2
-  state:
-    direction:
-      type: Int
-      value: 1
-    upper_block_bit:
-      type: Byte
-      value: 0
-- meta: 3
-  state:
-    direction:
-      type: Int
-      value: 1
-    upper_block_bit:
-      type: Byte
-      value: 1
-- meta: 4
-  state:
-    direction:
-      type: Int
-      value: 2
-    upper_block_bit:
-      type: Byte
-      value: 0
-- meta: 5
-  state:
-    direction:
-      type: Int
-      value: 2
-    upper_block_bit:
-      type: Byte
-      value: 1
-- meta: 6
-  state:
     direction:
       type: Int
       value: 3
-    upper_block_bit:
-      type: Byte
-      value: 0
-- meta: 7
-  state:
-    direction:
+    honey_level:
       type: Int
       value: 3
-    upper_block_bit:
-      type: Byte
-      value: 1
-minecraft:warped_roots:
-- meta: 0
-  state: []
-minecraft:sticky_piston:
-- meta: 0
-  state:
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    facing_direction:
-      type: Int
-      value: 5
-minecraft:medium_amethyst_bud:
-- meta: 0
-  state:
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    facing_direction:
-      type: Int
-      value: 5
-minecraft:sculk_sensor:
-- meta: 0
-  state:
-    powered_bit:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    powered_bit:
-      type: Byte
-      value: 1
-minecraft:frog_spawn:
-- meta: 0
-  state: []
-minecraft:unknown:
-- meta: 0
-  state: []
-minecraft:infested_deepslate:
-- meta: 0
-  state:
-    pillar_axis:
-      type: String
-      value: "y"
-- meta: 1
-  state:
-    pillar_axis:
-      type: String
-      value: x
-- meta: 2
-  state:
-    pillar_axis:
-      type: String
-      value: z
-minecraft:large_amethyst_bud:
-- meta: 0
-  state:
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    facing_direction:
-      type: Int
-      value: 5
-minecraft:cave_vines:
-- meta: 0
-  state:
-    growing_plant_age:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    growing_plant_age:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    growing_plant_age:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    growing_plant_age:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    growing_plant_age:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    growing_plant_age:
-      type: Int
-      value: 5
-- meta: 6
-  state:
-    growing_plant_age:
-      type: Int
-      value: 6
-- meta: 7
-  state:
-    growing_plant_age:
-      type: Int
-      value: 7
-- meta: 8
-  state:
-    growing_plant_age:
-      type: Int
-      value: 8
-- meta: 9
-  state:
-    growing_plant_age:
-      type: Int
-      value: 9
-- meta: 10
-  state:
-    growing_plant_age:
-      type: Int
-      value: 10
-- meta: 11
-  state:
-    growing_plant_age:
-      type: Int
-      value: 11
-- meta: 12
-  state:
-    growing_plant_age:
-      type: Int
-      value: 12
-- meta: 13
-  state:
-    growing_plant_age:
-      type: Int
-      value: 13
-- meta: 14
-  state:
-    growing_plant_age:
-      type: Int
-      value: 14
-- meta: 15
-  state:
-    growing_plant_age:
-      type: Int
-      value: 15
 - meta: 16
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 16
+      value: 0
+    honey_level:
+      type: Int
+      value: 4
 - meta: 17
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 17
+      value: 1
+    honey_level:
+      type: Int
+      value: 4
 - meta: 18
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 18
+      value: 2
+    honey_level:
+      type: Int
+      value: 4
 - meta: 19
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 19
+      value: 3
+    honey_level:
+      type: Int
+      value: 4
 - meta: 20
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 20
+      value: 0
+    honey_level:
+      type: Int
+      value: 5
 - meta: 21
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 21
+      value: 1
+    honey_level:
+      type: Int
+      value: 5
 - meta: 22
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 22
+      value: 2
+    honey_level:
+      type: Int
+      value: 5
 - meta: 23
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 23
-- meta: 24
-  state:
-    growing_plant_age:
+      value: 3
+    honey_level:
       type: Int
-      value: 24
-- meta: 25
-  state:
-    growing_plant_age:
-      type: Int
-      value: 25
-minecraft:jigsaw:
+      value: 5
+minecraft:beehive:
 - meta: 0
   state:
-    facing_direction:
+    direction:
       type: Int
       value: 0
-    rotation:
+    honey_level:
       type: Int
       value: 0
 - meta: 1
   state:
-    facing_direction:
+    direction:
       type: Int
       value: 1
-    rotation:
+    honey_level:
       type: Int
       value: 0
 - meta: 2
   state:
-    facing_direction:
+    direction:
       type: Int
       value: 2
-    rotation:
+    honey_level:
       type: Int
       value: 0
 - meta: 3
   state:
-    facing_direction:
+    direction:
       type: Int
       value: 3
-    rotation:
+    honey_level:
       type: Int
       value: 0
 - meta: 4
   state:
-    facing_direction:
+    direction:
+      type: Int
+      value: 0
+    honey_level:
+      type: Int
+      value: 1
+- meta: 5
+  state:
+    direction:
+      type: Int
+      value: 1
+    honey_level:
+      type: Int
+      value: 1
+- meta: 6
+  state:
+    direction:
+      type: Int
+      value: 2
+    honey_level:
+      type: Int
+      value: 1
+- meta: 7
+  state:
+    direction:
+      type: Int
+      value: 3
+    honey_level:
+      type: Int
+      value: 1
+- meta: 8
+  state:
+    direction:
+      type: Int
+      value: 0
+    honey_level:
+      type: Int
+      value: 2
+- meta: 9
+  state:
+    direction:
+      type: Int
+      value: 1
+    honey_level:
+      type: Int
+      value: 2
+- meta: 10
+  state:
+    direction:
+      type: Int
+      value: 2
+    honey_level:
+      type: Int
+      value: 2
+- meta: 11
+  state:
+    direction:
+      type: Int
+      value: 3
+    honey_level:
+      type: Int
+      value: 2
+- meta: 12
+  state:
+    direction:
+      type: Int
+      value: 0
+    honey_level:
+      type: Int
+      value: 3
+- meta: 13
+  state:
+    direction:
+      type: Int
+      value: 1
+    honey_level:
+      type: Int
+      value: 3
+- meta: 14
+  state:
+    direction:
+      type: Int
+      value: 2
+    honey_level:
+      type: Int
+      value: 3
+- meta: 15
+  state:
+    direction:
+      type: Int
+      value: 3
+    honey_level:
+      type: Int
+      value: 3
+- meta: 16
+  state:
+    direction:
+      type: Int
+      value: 0
+    honey_level:
       type: Int
       value: 4
-    rotation:
+- meta: 17
+  state:
+    direction:
+      type: Int
+      value: 1
+    honey_level:
+      type: Int
+      value: 4
+- meta: 18
+  state:
+    direction:
+      type: Int
+      value: 2
+    honey_level:
+      type: Int
+      value: 4
+- meta: 19
+  state:
+    direction:
+      type: Int
+      value: 3
+    honey_level:
+      type: Int
+      value: 4
+- meta: 20
+  state:
+    direction:
+      type: Int
+      value: 0
+    honey_level:
+      type: Int
+      value: 5
+- meta: 21
+  state:
+    direction:
+      type: Int
+      value: 1
+    honey_level:
+      type: Int
+      value: 5
+- meta: 22
+  state:
+    direction:
+      type: Int
+      value: 2
+    honey_level:
+      type: Int
+      value: 5
+- meta: 23
+  state:
+    direction:
+      type: Int
+      value: 3
+    honey_level:
+      type: Int
+      value: 5
+minecraft:big_dripleaf:
+- meta: 0
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
+      type: Int
+      value: 0
+- meta: 2
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
+      type: Int
+      value: 0
+- meta: 3
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
+      type: Int
+      value: 0
+- meta: 4
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
       type: Int
       value: 0
 - meta: 5
   state:
-    facing_direction:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
       type: Int
-      value: 5
-    rotation:
+      value: 0
+- meta: 6
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
+      type: Int
+      value: 0
+- meta: 7
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
       type: Int
       value: 0
 - meta: 8
   state:
-    facing_direction:
-      type: Int
+    big_dripleaf_head:
+      type: Byte
       value: 0
-    rotation:
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
       type: Int
       value: 1
 - meta: 9
   state:
-    facing_direction:
-      type: Int
-      value: 1
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
       type: Int
       value: 1
 - meta: 10
   state:
-    facing_direction:
-      type: Int
-      value: 2
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
       type: Int
       value: 1
 - meta: 11
   state:
-    facing_direction:
-      type: Int
-      value: 3
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
       type: Int
       value: 1
 - meta: 12
   state:
-    facing_direction:
-      type: Int
-      value: 4
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
       type: Int
       value: 1
 - meta: 13
   state:
-    facing_direction:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
       type: Int
-      value: 5
-    rotation:
+      value: 1
+- meta: 14
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
+      type: Int
+      value: 1
+- meta: 15
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
       type: Int
       value: 1
 - meta: 16
   state:
-    facing_direction:
-      type: Int
+    big_dripleaf_head:
+      type: Byte
       value: 0
-    rotation:
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
       type: Int
       value: 2
 - meta: 17
   state:
-    facing_direction:
-      type: Int
-      value: 1
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
       type: Int
       value: 2
 - meta: 18
   state:
-    facing_direction:
-      type: Int
-      value: 2
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
       type: Int
       value: 2
 - meta: 19
   state:
-    facing_direction:
-      type: Int
-      value: 3
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
       type: Int
       value: 2
 - meta: 20
   state:
-    facing_direction:
-      type: Int
-      value: 4
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
       type: Int
       value: 2
 - meta: 21
   state:
-    facing_direction:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
       type: Int
-      value: 5
-    rotation:
+      value: 2
+- meta: 22
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
+      type: Int
+      value: 2
+- meta: 23
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
       type: Int
       value: 2
 - meta: 24
   state:
-    facing_direction:
-      type: Int
+    big_dripleaf_head:
+      type: Byte
       value: 0
-    rotation:
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
       type: Int
       value: 3
 - meta: 25
   state:
-    facing_direction:
-      type: Int
-      value: 1
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
       type: Int
       value: 3
 - meta: 26
   state:
-    facing_direction:
-      type: Int
-      value: 2
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
       type: Int
       value: 3
 - meta: 27
   state:
-    facing_direction:
-      type: Int
-      value: 3
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 0
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
       type: Int
       value: 3
 - meta: 28
   state:
-    facing_direction:
-      type: Int
-      value: 4
-    rotation:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: none
+    direction:
       type: Int
       value: 3
 - meta: 29
   state:
-    facing_direction:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: unstable
+    direction:
       type: Int
-      value: 5
-    rotation:
+      value: 3
+- meta: 30
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: partial_tilt
+    direction:
+      type: Int
+      value: 3
+- meta: 31
+  state:
+    big_dripleaf_head:
+      type: Byte
+      value: 1
+    big_dripleaf_tilt:
+      type: String
+      value: full_tilt
+    direction:
       type: Int
       value: 3
 minecraft:border_block:
@@ -3592,6 +3596,694 @@ minecraft:border_block:
     wall_post_bit:
       type: Byte
       value: 1
+minecraft:bubble_column:
+- meta: 0
+  state:
+    drag_down:
+      type: Byte
+      value: 0
+- meta: 1
+  state:
+    drag_down:
+      type: Byte
+      value: 1
+minecraft:budding_amethyst:
+- meta: 0
+  state: []
+minecraft:camera:
+- meta: 0
+  state: []
+minecraft:campfire:
+- meta: 0
+  state:
+    direction:
+      type: Int
+      value: 0
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 1
+  state:
+    direction:
+      type: Int
+      value: 1
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 2
+  state:
+    direction:
+      type: Int
+      value: 2
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 3
+  state:
+    direction:
+      type: Int
+      value: 3
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 4
+  state:
+    direction:
+      type: Int
+      value: 0
+    extinguished:
+      type: Byte
+      value: 1
+- meta: 5
+  state:
+    direction:
+      type: Int
+      value: 1
+    extinguished:
+      type: Byte
+      value: 1
+- meta: 6
+  state:
+    direction:
+      type: Int
+      value: 2
+    extinguished:
+      type: Byte
+      value: 1
+- meta: 7
+  state:
+    direction:
+      type: Int
+      value: 3
+    extinguished:
+      type: Byte
+      value: 1
+minecraft:cave_vines:
+- meta: 0
+  state:
+    growing_plant_age:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    growing_plant_age:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    growing_plant_age:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    growing_plant_age:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    growing_plant_age:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    growing_plant_age:
+      type: Int
+      value: 5
+- meta: 6
+  state:
+    growing_plant_age:
+      type: Int
+      value: 6
+- meta: 7
+  state:
+    growing_plant_age:
+      type: Int
+      value: 7
+- meta: 8
+  state:
+    growing_plant_age:
+      type: Int
+      value: 8
+- meta: 9
+  state:
+    growing_plant_age:
+      type: Int
+      value: 9
+- meta: 10
+  state:
+    growing_plant_age:
+      type: Int
+      value: 10
+- meta: 11
+  state:
+    growing_plant_age:
+      type: Int
+      value: 11
+- meta: 12
+  state:
+    growing_plant_age:
+      type: Int
+      value: 12
+- meta: 13
+  state:
+    growing_plant_age:
+      type: Int
+      value: 13
+- meta: 14
+  state:
+    growing_plant_age:
+      type: Int
+      value: 14
+- meta: 15
+  state:
+    growing_plant_age:
+      type: Int
+      value: 15
+- meta: 16
+  state:
+    growing_plant_age:
+      type: Int
+      value: 16
+- meta: 17
+  state:
+    growing_plant_age:
+      type: Int
+      value: 17
+- meta: 18
+  state:
+    growing_plant_age:
+      type: Int
+      value: 18
+- meta: 19
+  state:
+    growing_plant_age:
+      type: Int
+      value: 19
+- meta: 20
+  state:
+    growing_plant_age:
+      type: Int
+      value: 20
+- meta: 21
+  state:
+    growing_plant_age:
+      type: Int
+      value: 21
+- meta: 22
+  state:
+    growing_plant_age:
+      type: Int
+      value: 22
+- meta: 23
+  state:
+    growing_plant_age:
+      type: Int
+      value: 23
+- meta: 24
+  state:
+    growing_plant_age:
+      type: Int
+      value: 24
+- meta: 25
+  state:
+    growing_plant_age:
+      type: Int
+      value: 25
+minecraft:cave_vines_body_with_berries:
+- meta: 0
+  state:
+    growing_plant_age:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    growing_plant_age:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    growing_plant_age:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    growing_plant_age:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    growing_plant_age:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    growing_plant_age:
+      type: Int
+      value: 5
+- meta: 6
+  state:
+    growing_plant_age:
+      type: Int
+      value: 6
+- meta: 7
+  state:
+    growing_plant_age:
+      type: Int
+      value: 7
+- meta: 8
+  state:
+    growing_plant_age:
+      type: Int
+      value: 8
+- meta: 9
+  state:
+    growing_plant_age:
+      type: Int
+      value: 9
+- meta: 10
+  state:
+    growing_plant_age:
+      type: Int
+      value: 10
+- meta: 11
+  state:
+    growing_plant_age:
+      type: Int
+      value: 11
+- meta: 12
+  state:
+    growing_plant_age:
+      type: Int
+      value: 12
+- meta: 13
+  state:
+    growing_plant_age:
+      type: Int
+      value: 13
+- meta: 14
+  state:
+    growing_plant_age:
+      type: Int
+      value: 14
+- meta: 15
+  state:
+    growing_plant_age:
+      type: Int
+      value: 15
+- meta: 16
+  state:
+    growing_plant_age:
+      type: Int
+      value: 16
+- meta: 17
+  state:
+    growing_plant_age:
+      type: Int
+      value: 17
+- meta: 18
+  state:
+    growing_plant_age:
+      type: Int
+      value: 18
+- meta: 19
+  state:
+    growing_plant_age:
+      type: Int
+      value: 19
+- meta: 20
+  state:
+    growing_plant_age:
+      type: Int
+      value: 20
+- meta: 21
+  state:
+    growing_plant_age:
+      type: Int
+      value: 21
+- meta: 22
+  state:
+    growing_plant_age:
+      type: Int
+      value: 22
+- meta: 23
+  state:
+    growing_plant_age:
+      type: Int
+      value: 23
+- meta: 24
+  state:
+    growing_plant_age:
+      type: Int
+      value: 24
+- meta: 25
+  state:
+    growing_plant_age:
+      type: Int
+      value: 25
+minecraft:cave_vines_head_with_berries:
+- meta: 0
+  state:
+    growing_plant_age:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    growing_plant_age:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    growing_plant_age:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    growing_plant_age:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    growing_plant_age:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    growing_plant_age:
+      type: Int
+      value: 5
+- meta: 6
+  state:
+    growing_plant_age:
+      type: Int
+      value: 6
+- meta: 7
+  state:
+    growing_plant_age:
+      type: Int
+      value: 7
+- meta: 8
+  state:
+    growing_plant_age:
+      type: Int
+      value: 8
+- meta: 9
+  state:
+    growing_plant_age:
+      type: Int
+      value: 9
+- meta: 10
+  state:
+    growing_plant_age:
+      type: Int
+      value: 10
+- meta: 11
+  state:
+    growing_plant_age:
+      type: Int
+      value: 11
+- meta: 12
+  state:
+    growing_plant_age:
+      type: Int
+      value: 12
+- meta: 13
+  state:
+    growing_plant_age:
+      type: Int
+      value: 13
+- meta: 14
+  state:
+    growing_plant_age:
+      type: Int
+      value: 14
+- meta: 15
+  state:
+    growing_plant_age:
+      type: Int
+      value: 15
+- meta: 16
+  state:
+    growing_plant_age:
+      type: Int
+      value: 16
+- meta: 17
+  state:
+    growing_plant_age:
+      type: Int
+      value: 17
+- meta: 18
+  state:
+    growing_plant_age:
+      type: Int
+      value: 18
+- meta: 19
+  state:
+    growing_plant_age:
+      type: Int
+      value: 19
+- meta: 20
+  state:
+    growing_plant_age:
+      type: Int
+      value: 20
+- meta: 21
+  state:
+    growing_plant_age:
+      type: Int
+      value: 21
+- meta: 22
+  state:
+    growing_plant_age:
+      type: Int
+      value: 22
+- meta: 23
+  state:
+    growing_plant_age:
+      type: Int
+      value: 23
+- meta: 24
+  state:
+    growing_plant_age:
+      type: Int
+      value: 24
+- meta: 25
+  state:
+    growing_plant_age:
+      type: Int
+      value: 25
+minecraft:chain:
+- meta: 0
+  state:
+    pillar_axis:
+      type: String
+      value: "y"
+- meta: 1
+  state:
+    pillar_axis:
+      type: String
+      value: x
+- meta: 2
+  state:
+    pillar_axis:
+      type: String
+      value: z
+minecraft:chain_command_block:
+- meta: 0
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 5
+- meta: 8
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 9
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 10
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 11
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 12
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 13
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 5
+minecraft:client_request_placeholder_block:
+- meta: 0
+  state: []
+minecraft:command_block:
+- meta: 0
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 5
+- meta: 8
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 9
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 10
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 11
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 12
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 13
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 5
 minecraft:composter:
 - meta: 0
   state:
@@ -3638,272 +4330,28 @@ minecraft:composter:
     composter_fill_level:
       type: Int
       value: 8
-minecraft:kelp:
+minecraft:conduit:
 - meta: 0
-  state:
-    kelp_age:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    kelp_age:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    kelp_age:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    kelp_age:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    kelp_age:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    kelp_age:
-      type: Int
-      value: 5
-- meta: 6
-  state:
-    kelp_age:
-      type: Int
-      value: 6
-- meta: 7
-  state:
-    kelp_age:
-      type: Int
-      value: 7
-- meta: 8
-  state:
-    kelp_age:
-      type: Int
-      value: 8
-- meta: 9
-  state:
-    kelp_age:
-      type: Int
-      value: 9
-- meta: 10
-  state:
-    kelp_age:
-      type: Int
-      value: 10
-- meta: 11
-  state:
-    kelp_age:
-      type: Int
-      value: 11
-- meta: 12
-  state:
-    kelp_age:
-      type: Int
-      value: 12
-- meta: 13
-  state:
-    kelp_age:
-      type: Int
-      value: 13
-- meta: 14
-  state:
-    kelp_age:
-      type: Int
-      value: 14
-- meta: 15
-  state:
-    kelp_age:
-      type: Int
-      value: 15
-- meta: 16
-  state:
-    kelp_age:
-      type: Int
-      value: 16
-- meta: 17
-  state:
-    kelp_age:
-      type: Int
-      value: 17
-- meta: 18
-  state:
-    kelp_age:
-      type: Int
-      value: 18
-- meta: 19
-  state:
-    kelp_age:
-      type: Int
-      value: 19
-- meta: 20
-  state:
-    kelp_age:
-      type: Int
-      value: 20
-- meta: 21
-  state:
-    kelp_age:
-      type: Int
-      value: 21
-- meta: 22
-  state:
-    kelp_age:
-      type: Int
-      value: 22
-- meta: 23
-  state:
-    kelp_age:
-      type: Int
-      value: 23
-- meta: 24
-  state:
-    kelp_age:
-      type: Int
-      value: 24
-- meta: 25
-  state:
-    kelp_age:
-      type: Int
-      value: 25
+  state: []
+minecraft:crimson_nylium:
+- meta: 0
+  state: []
+minecraft:crimson_roots:
+- meta: 0
+  state: []
+minecraft:deny:
+- meta: 0
+  state: []
+minecraft:dripstone_block:
+- meta: 0
+  state: []
+minecraft:end_portal:
+- meta: 0
+  state: []
 minecraft:flowering_azalea:
 - meta: 0
   state: []
-minecraft:weeping_vines:
-- meta: 0
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 5
-- meta: 6
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 6
-- meta: 7
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 7
-- meta: 8
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 8
-- meta: 9
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 9
-- meta: 10
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 10
-- meta: 11
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 11
-- meta: 12
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 12
-- meta: 13
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 13
-- meta: 14
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 14
-- meta: 15
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 15
-- meta: 16
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 16
-- meta: 17
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 17
-- meta: 18
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 18
-- meta: 19
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 19
-- meta: 20
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 20
-- meta: 21
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 21
-- meta: 22
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 22
-- meta: 23
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 23
-- meta: 24
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 24
-- meta: 25
-  state:
-    weeping_vines_age:
-      type: Int
-      value: 25
-minecraft:moving_block:
+minecraft:frog_spawn:
 - meta: 0
   state: []
 minecraft:glow_lichen:
@@ -4227,1123 +4675,479 @@ minecraft:glow_lichen:
     multi_face_direction_bits:
       type: Int
       value: 63
-minecraft:twisting_vines:
+minecraft:grindstone:
 - meta: 0
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: standing
+    direction:
       type: Int
       value: 0
 - meta: 1
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: standing
+    direction:
       type: Int
       value: 1
 - meta: 2
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: standing
+    direction:
       type: Int
       value: 2
 - meta: 3
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: standing
+    direction:
       type: Int
       value: 3
 - meta: 4
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: hanging
+    direction:
       type: Int
-      value: 4
+      value: 0
 - meta: 5
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: hanging
+    direction:
       type: Int
-      value: 5
+      value: 1
 - meta: 6
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: hanging
+    direction:
       type: Int
-      value: 6
+      value: 2
 - meta: 7
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: hanging
+    direction:
       type: Int
-      value: 7
+      value: 3
 - meta: 8
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: side
+    direction:
       type: Int
-      value: 8
+      value: 0
 - meta: 9
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: side
+    direction:
       type: Int
-      value: 9
+      value: 1
 - meta: 10
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: side
+    direction:
       type: Int
-      value: 10
+      value: 2
 - meta: 11
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: side
+    direction:
       type: Int
-      value: 11
+      value: 3
 - meta: 12
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: multiple
+    direction:
       type: Int
-      value: 12
+      value: 0
 - meta: 13
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: multiple
+    direction:
       type: Int
-      value: 13
+      value: 1
 - meta: 14
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: multiple
+    direction:
       type: Int
-      value: 14
+      value: 2
 - meta: 15
   state:
-    twisting_vines_age:
+    attachment:
+      type: String
+      value: multiple
+    direction:
       type: Int
-      value: 15
-- meta: 16
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 16
-- meta: 17
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 17
-- meta: 18
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 18
-- meta: 19
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 19
-- meta: 20
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 20
-- meta: 21
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 21
-- meta: 22
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 22
-- meta: 23
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 23
-- meta: 24
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 24
-- meta: 25
-  state:
-    twisting_vines_age:
-      type: Int
-      value: 25
-minecraft:deny:
+      value: 3
+minecraft:honey_block:
 - meta: 0
   state: []
-minecraft:bee_nest:
+minecraft:infested_deepslate:
 - meta: 0
   state:
-    direction:
+    pillar_axis:
+      type: String
+      value: "y"
+- meta: 1
+  state:
+    pillar_axis:
+      type: String
+      value: x
+- meta: 2
+  state:
+    pillar_axis:
+      type: String
+      value: z
+minecraft:jigsaw:
+- meta: 0
+  state:
+    facing_direction:
       type: Int
       value: 0
-    honey_level:
+    rotation:
       type: Int
       value: 0
 - meta: 1
   state:
-    direction:
+    facing_direction:
       type: Int
       value: 1
-    honey_level:
+    rotation:
       type: Int
       value: 0
 - meta: 2
   state:
-    direction:
+    facing_direction:
       type: Int
       value: 2
-    honey_level:
+    rotation:
       type: Int
       value: 0
 - meta: 3
   state:
-    direction:
+    facing_direction:
       type: Int
       value: 3
-    honey_level:
+    rotation:
       type: Int
       value: 0
 - meta: 4
   state:
-    direction:
-      type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 1
-- meta: 5
-  state:
-    direction:
-      type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 1
-- meta: 6
-  state:
-    direction:
-      type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 1
-- meta: 7
-  state:
-    direction:
-      type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 1
-- meta: 8
-  state:
-    direction:
-      type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 2
-- meta: 9
-  state:
-    direction:
-      type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 2
-- meta: 10
-  state:
-    direction:
-      type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 2
-- meta: 11
-  state:
-    direction:
-      type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 2
-- meta: 12
-  state:
-    direction:
-      type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 3
-- meta: 13
-  state:
-    direction:
-      type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 3
-- meta: 14
-  state:
-    direction:
-      type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 3
-- meta: 15
-  state:
-    direction:
-      type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 3
-- meta: 16
-  state:
-    direction:
-      type: Int
-      value: 0
-    honey_level:
+    facing_direction:
       type: Int
       value: 4
-- meta: 17
-  state:
-    direction:
-      type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 4
-- meta: 18
-  state:
-    direction:
-      type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 4
-- meta: 19
-  state:
-    direction:
-      type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 4
-- meta: 20
-  state:
-    direction:
-      type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 5
-- meta: 21
-  state:
-    direction:
-      type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 5
-- meta: 22
-  state:
-    direction:
-      type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 5
-- meta: 23
-  state:
-    direction:
-      type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 5
-minecraft:bubble_column:
-- meta: 0
-  state:
-    drag_down:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    drag_down:
-      type: Byte
-      value: 1
-minecraft:campfire:
-- meta: 0
-  state:
-    direction:
-      type: Int
-      value: 0
-    extinguished:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    direction:
-      type: Int
-      value: 1
-    extinguished:
-      type: Byte
-      value: 0
-- meta: 2
-  state:
-    direction:
-      type: Int
-      value: 2
-    extinguished:
-      type: Byte
-      value: 0
-- meta: 3
-  state:
-    direction:
-      type: Int
-      value: 3
-    extinguished:
-      type: Byte
-      value: 0
-- meta: 4
-  state:
-    direction:
-      type: Int
-      value: 0
-    extinguished:
-      type: Byte
-      value: 1
-- meta: 5
-  state:
-    direction:
-      type: Int
-      value: 1
-    extinguished:
-      type: Byte
-      value: 1
-- meta: 6
-  state:
-    direction:
-      type: Int
-      value: 2
-    extinguished:
-      type: Byte
-      value: 1
-- meta: 7
-  state:
-    direction:
-      type: Int
-      value: 3
-    extinguished:
-      type: Byte
-      value: 1
-minecraft:reinforced_deepslate:
-- meta: 0
-  state: []
-minecraft:cave_vines_body_with_berries:
-- meta: 0
-  state:
-    growing_plant_age:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    growing_plant_age:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    growing_plant_age:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    growing_plant_age:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    growing_plant_age:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    growing_plant_age:
-      type: Int
-      value: 5
-- meta: 6
-  state:
-    growing_plant_age:
-      type: Int
-      value: 6
-- meta: 7
-  state:
-    growing_plant_age:
-      type: Int
-      value: 7
-- meta: 8
-  state:
-    growing_plant_age:
-      type: Int
-      value: 8
-- meta: 9
-  state:
-    growing_plant_age:
-      type: Int
-      value: 9
-- meta: 10
-  state:
-    growing_plant_age:
-      type: Int
-      value: 10
-- meta: 11
-  state:
-    growing_plant_age:
-      type: Int
-      value: 11
-- meta: 12
-  state:
-    growing_plant_age:
-      type: Int
-      value: 12
-- meta: 13
-  state:
-    growing_plant_age:
-      type: Int
-      value: 13
-- meta: 14
-  state:
-    growing_plant_age:
-      type: Int
-      value: 14
-- meta: 15
-  state:
-    growing_plant_age:
-      type: Int
-      value: 15
-- meta: 16
-  state:
-    growing_plant_age:
-      type: Int
-      value: 16
-- meta: 17
-  state:
-    growing_plant_age:
-      type: Int
-      value: 17
-- meta: 18
-  state:
-    growing_plant_age:
-      type: Int
-      value: 18
-- meta: 19
-  state:
-    growing_plant_age:
-      type: Int
-      value: 19
-- meta: 20
-  state:
-    growing_plant_age:
-      type: Int
-      value: 20
-- meta: 21
-  state:
-    growing_plant_age:
-      type: Int
-      value: 21
-- meta: 22
-  state:
-    growing_plant_age:
-      type: Int
-      value: 22
-- meta: 23
-  state:
-    growing_plant_age:
-      type: Int
-      value: 23
-- meta: 24
-  state:
-    growing_plant_age:
-      type: Int
-      value: 24
-- meta: 25
-  state:
-    growing_plant_age:
-      type: Int
-      value: 25
-minecraft:big_dripleaf:
-- meta: 0
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
-      type: Int
-      value: 0
-- meta: 2
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
-      type: Int
-      value: 0
-- meta: 3
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
-      type: Int
-      value: 0
-- meta: 4
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
+    rotation:
       type: Int
       value: 0
 - meta: 5
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
+    facing_direction:
       type: Int
-      value: 0
-- meta: 6
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
-      type: Int
-      value: 0
-- meta: 7
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
+      value: 5
+    rotation:
       type: Int
       value: 0
 - meta: 8
   state:
-    big_dripleaf_head:
-      type: Byte
+    facing_direction:
+      type: Int
       value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
+    rotation:
       type: Int
       value: 1
 - meta: 9
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
+    facing_direction:
+      type: Int
+      value: 1
+    rotation:
       type: Int
       value: 1
 - meta: 10
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
+    facing_direction:
+      type: Int
+      value: 2
+    rotation:
       type: Int
       value: 1
 - meta: 11
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
+    facing_direction:
+      type: Int
+      value: 3
+    rotation:
       type: Int
       value: 1
 - meta: 12
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
+    facing_direction:
+      type: Int
+      value: 4
+    rotation:
       type: Int
       value: 1
 - meta: 13
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
+    facing_direction:
       type: Int
-      value: 1
-- meta: 14
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
-      type: Int
-      value: 1
-- meta: 15
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
+      value: 5
+    rotation:
       type: Int
       value: 1
 - meta: 16
   state:
-    big_dripleaf_head:
-      type: Byte
+    facing_direction:
+      type: Int
       value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
+    rotation:
       type: Int
       value: 2
 - meta: 17
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
+    facing_direction:
+      type: Int
+      value: 1
+    rotation:
       type: Int
       value: 2
 - meta: 18
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
+    facing_direction:
+      type: Int
+      value: 2
+    rotation:
       type: Int
       value: 2
 - meta: 19
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
+    facing_direction:
+      type: Int
+      value: 3
+    rotation:
       type: Int
       value: 2
 - meta: 20
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
+    facing_direction:
+      type: Int
+      value: 4
+    rotation:
       type: Int
       value: 2
 - meta: 21
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
+    facing_direction:
       type: Int
-      value: 2
-- meta: 22
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
-      type: Int
-      value: 2
-- meta: 23
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
+      value: 5
+    rotation:
       type: Int
       value: 2
 - meta: 24
   state:
-    big_dripleaf_head:
-      type: Byte
+    facing_direction:
+      type: Int
       value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
+    rotation:
       type: Int
       value: 3
 - meta: 25
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
+    facing_direction:
+      type: Int
+      value: 1
+    rotation:
       type: Int
       value: 3
 - meta: 26
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
+    facing_direction:
+      type: Int
+      value: 2
+    rotation:
       type: Int
       value: 3
 - meta: 27
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 0
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
+    facing_direction:
+      type: Int
+      value: 3
+    rotation:
       type: Int
       value: 3
 - meta: 28
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: none
-    direction:
+    facing_direction:
+      type: Int
+      value: 4
+    rotation:
       type: Int
       value: 3
 - meta: 29
   state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: unstable
-    direction:
+    facing_direction:
+      type: Int
+      value: 5
+    rotation:
       type: Int
       value: 3
-- meta: 30
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: partial_tilt
-    direction:
-      type: Int
-      value: 3
-- meta: 31
-  state:
-    big_dripleaf_head:
-      type: Byte
-      value: 1
-    big_dripleaf_tilt:
-      type: String
-      value: full_tilt
-    direction:
-      type: Int
-      value: 3
-minecraft:beehive:
+minecraft:kelp:
 - meta: 0
   state:
-    direction:
-      type: Int
-      value: 0
-    honey_level:
+    kelp_age:
       type: Int
       value: 0
 - meta: 1
   state:
-    direction:
+    kelp_age:
       type: Int
       value: 1
-    honey_level:
-      type: Int
-      value: 0
 - meta: 2
   state:
-    direction:
+    kelp_age:
       type: Int
       value: 2
-    honey_level:
-      type: Int
-      value: 0
 - meta: 3
   state:
-    direction:
+    kelp_age:
       type: Int
       value: 3
-    honey_level:
-      type: Int
-      value: 0
 - meta: 4
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 1
+      value: 4
 - meta: 5
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 1
+      value: 5
 - meta: 6
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 1
+      value: 6
 - meta: 7
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 1
+      value: 7
 - meta: 8
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 2
+      value: 8
 - meta: 9
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 2
+      value: 9
 - meta: 10
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 2
+      value: 10
 - meta: 11
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 2
+      value: 11
 - meta: 12
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 3
+      value: 12
 - meta: 13
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 3
+      value: 13
 - meta: 14
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 3
+      value: 14
 - meta: 15
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 3
+      value: 15
 - meta: 16
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 4
+      value: 16
 - meta: 17
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 4
+      value: 17
 - meta: 18
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 4
+      value: 18
 - meta: 19
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 3
-    honey_level:
-      type: Int
-      value: 4
+      value: 19
 - meta: 20
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 0
-    honey_level:
-      type: Int
-      value: 5
+      value: 20
 - meta: 21
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 1
-    honey_level:
-      type: Int
-      value: 5
+      value: 21
 - meta: 22
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 2
-    honey_level:
-      type: Int
-      value: 5
+      value: 22
 - meta: 23
   state:
-    direction:
+    kelp_age:
       type: Int
-      value: 3
-    honey_level:
+      value: 23
+- meta: 24
+  state:
+    kelp_age:
       type: Int
-      value: 5
-minecraft:azalea_leaves_flowered:
-- meta: 0
+      value: 24
+- meta: 25
   state:
-    persistent_bit:
-      type: Byte
-      value: 0
-    update_bit:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    persistent_bit:
-      type: Byte
-      value: 0
-    update_bit:
-      type: Byte
-      value: 1
-- meta: 2
-  state:
-    persistent_bit:
-      type: Byte
-      value: 1
-    update_bit:
-      type: Byte
-      value: 0
-- meta: 3
-  state:
-    persistent_bit:
-      type: Byte
-      value: 1
-    update_bit:
-      type: Byte
-      value: 1
-minecraft:sticky_piston_arm_collision:
+    kelp_age:
+      type: Int
+      value: 25
+minecraft:large_amethyst_bud:
 - meta: 0
   state:
     facing_direction:
@@ -5374,146 +5178,9 @@ minecraft:sticky_piston_arm_collision:
     facing_direction:
       type: Int
       value: 5
-minecraft:warped_nylium:
+minecraft:lodestone:
 - meta: 0
   state: []
-minecraft:structure_block:
-- meta: 0
-  state:
-    structure_block_type:
-      type: String
-      value: data
-- meta: 1
-  state:
-    structure_block_type:
-      type: String
-      value: save
-- meta: 2
-  state:
-    structure_block_type:
-      type: String
-      value: load
-- meta: 3
-  state:
-    structure_block_type:
-      type: String
-      value: corner
-- meta: 4
-  state:
-    structure_block_type:
-      type: String
-      value: invalid
-- meta: 5
-  state:
-    structure_block_type:
-      type: String
-      value: export
-minecraft:target:
-- meta: 0
-  state: []
-minecraft:nether_sprouts:
-- meta: 0
-  state: []
-minecraft:moss_block:
-- meta: 0
-  state: []
-minecraft:chain_command_block:
-- meta: 0
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 5
-- meta: 8
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 9
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 10
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 11
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 12
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 13
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 5
 minecraft:mangrove_leaves:
 - meta: 0
   state:
@@ -5547,9 +5214,6 @@ minecraft:mangrove_leaves:
     update_bit:
       type: Byte
       value: 1
-minecraft:azalea:
-- meta: 0
-  state: []
 minecraft:mangrove_propagule:
 - meta: 0
   state:
@@ -5631,31 +5295,504 @@ minecraft:mangrove_propagule:
     propagule_stage:
       type: Int
       value: 4
-minecraft:budding_amethyst:
+minecraft:medium_amethyst_bud:
+- meta: 0
+  state:
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    facing_direction:
+      type: Int
+      value: 5
+minecraft:moss_block:
 - meta: 0
   state: []
+minecraft:moving_block:
+- meta: 0
+  state: []
+minecraft:nether_sprouts:
+- meta: 0
+  state: []
+minecraft:observer:
+- meta: 0
+  state:
+    facing_direction:
+      type: Int
+      value: 0
+    powered_bit:
+      type: Byte
+      value: 0
+- meta: 1
+  state:
+    facing_direction:
+      type: Int
+      value: 1
+    powered_bit:
+      type: Byte
+      value: 0
+- meta: 2
+  state:
+    facing_direction:
+      type: Int
+      value: 2
+    powered_bit:
+      type: Byte
+      value: 0
+- meta: 3
+  state:
+    facing_direction:
+      type: Int
+      value: 3
+    powered_bit:
+      type: Byte
+      value: 0
+- meta: 4
+  state:
+    facing_direction:
+      type: Int
+      value: 4
+    powered_bit:
+      type: Byte
+      value: 0
+- meta: 5
+  state:
+    facing_direction:
+      type: Int
+      value: 5
+    powered_bit:
+      type: Byte
+      value: 0
+- meta: 8
+  state:
+    facing_direction:
+      type: Int
+      value: 0
+    powered_bit:
+      type: Byte
+      value: 1
+- meta: 9
+  state:
+    facing_direction:
+      type: Int
+      value: 1
+    powered_bit:
+      type: Byte
+      value: 1
+- meta: 10
+  state:
+    facing_direction:
+      type: Int
+      value: 2
+    powered_bit:
+      type: Byte
+      value: 1
+- meta: 11
+  state:
+    facing_direction:
+      type: Int
+      value: 3
+    powered_bit:
+      type: Byte
+      value: 1
+- meta: 12
+  state:
+    facing_direction:
+      type: Int
+      value: 4
+    powered_bit:
+      type: Byte
+      value: 1
+- meta: 13
+  state:
+    facing_direction:
+      type: Int
+      value: 5
+    powered_bit:
+      type: Byte
+      value: 1
+minecraft:pointed_dripstone:
+- meta: 0
+  state:
+    dripstone_thickness:
+      type: String
+      value: tip
+    hanging:
+      type: Byte
+      value: 0
+- meta: 1
+  state:
+    dripstone_thickness:
+      type: String
+      value: frustum
+    hanging:
+      type: Byte
+      value: 0
+- meta: 2
+  state:
+    dripstone_thickness:
+      type: String
+      value: middle
+    hanging:
+      type: Byte
+      value: 0
+- meta: 3
+  state:
+    dripstone_thickness:
+      type: String
+      value: base
+    hanging:
+      type: Byte
+      value: 0
+- meta: 4
+  state:
+    dripstone_thickness:
+      type: String
+      value: merge
+    hanging:
+      type: Byte
+      value: 0
+- meta: 8
+  state:
+    dripstone_thickness:
+      type: String
+      value: tip
+    hanging:
+      type: Byte
+      value: 1
+- meta: 9
+  state:
+    dripstone_thickness:
+      type: String
+      value: frustum
+    hanging:
+      type: Byte
+      value: 1
+- meta: 10
+  state:
+    dripstone_thickness:
+      type: String
+      value: middle
+    hanging:
+      type: Byte
+      value: 1
+- meta: 11
+  state:
+    dripstone_thickness:
+      type: String
+      value: base
+    hanging:
+      type: Byte
+      value: 1
+- meta: 12
+  state:
+    dripstone_thickness:
+      type: String
+      value: merge
+    hanging:
+      type: Byte
+      value: 1
+minecraft:reinforced_deepslate:
+- meta: 0
+  state: []
+minecraft:repeating_command_block:
+- meta: 0
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    conditional_bit:
+      type: Byte
+      value: 0
+    facing_direction:
+      type: Int
+      value: 5
+- meta: 8
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 0
+- meta: 9
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 1
+- meta: 10
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 2
+- meta: 11
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 3
+- meta: 12
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 13
+  state:
+    conditional_bit:
+      type: Byte
+      value: 1
+    facing_direction:
+      type: Int
+      value: 5
+minecraft:respawn_anchor:
+- meta: 0
+  state:
+    respawn_anchor_charge:
+      type: Int
+      value: 0
+- meta: 1
+  state:
+    respawn_anchor_charge:
+      type: Int
+      value: 1
+- meta: 2
+  state:
+    respawn_anchor_charge:
+      type: Int
+      value: 2
+- meta: 3
+  state:
+    respawn_anchor_charge:
+      type: Int
+      value: 3
+- meta: 4
+  state:
+    respawn_anchor_charge:
+      type: Int
+      value: 4
+minecraft:scaffolding:
+- meta: 0
+  state:
+    stability:
+      type: Int
+      value: 0
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 1
+  state:
+    stability:
+      type: Int
+      value: 1
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 2
+  state:
+    stability:
+      type: Int
+      value: 2
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 3
+  state:
+    stability:
+      type: Int
+      value: 3
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 4
+  state:
+    stability:
+      type: Int
+      value: 4
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 5
+  state:
+    stability:
+      type: Int
+      value: 5
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 6
+  state:
+    stability:
+      type: Int
+      value: 6
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 7
+  state:
+    stability:
+      type: Int
+      value: 7
+    stability_check:
+      type: Byte
+      value: 0
+- meta: 8
+  state:
+    stability:
+      type: Int
+      value: 0
+    stability_check:
+      type: Byte
+      value: 1
+- meta: 9
+  state:
+    stability:
+      type: Int
+      value: 1
+    stability_check:
+      type: Byte
+      value: 1
+- meta: 10
+  state:
+    stability:
+      type: Int
+      value: 2
+    stability_check:
+      type: Byte
+      value: 1
+- meta: 11
+  state:
+    stability:
+      type: Int
+      value: 3
+    stability_check:
+      type: Byte
+      value: 1
+- meta: 12
+  state:
+    stability:
+      type: Int
+      value: 4
+    stability_check:
+      type: Byte
+      value: 1
+- meta: 13
+  state:
+    stability:
+      type: Int
+      value: 5
+    stability_check:
+      type: Byte
+      value: 1
+- meta: 14
+  state:
+    stability:
+      type: Int
+      value: 6
+    stability_check:
+      type: Byte
+      value: 1
+- meta: 15
+  state:
+    stability:
+      type: Int
+      value: 7
+    stability_check:
+      type: Byte
+      value: 1
 minecraft:sculk:
 - meta: 0
   state: []
-minecraft:allow:
-- meta: 0
-  state: []
-minecraft:chain:
+minecraft:sculk_catalyst:
 - meta: 0
   state:
-    pillar_axis:
-      type: String
-      value: "y"
+    bloom:
+      type: Byte
+      value: 0
 - meta: 1
   state:
-    pillar_axis:
-      type: String
-      value: x
-- meta: 2
+    bloom:
+      type: Byte
+      value: 1
+minecraft:sculk_sensor:
+- meta: 0
   state:
-    pillar_axis:
-      type: String
-      value: z
+    powered_bit:
+      type: Byte
+      value: 0
+- meta: 1
+  state:
+    powered_bit:
+      type: Byte
+      value: 1
 minecraft:sculk_vein:
 - meta: 0
   state:
@@ -5977,485 +6114,274 @@ minecraft:sculk_vein:
     multi_face_direction_bits:
       type: Int
       value: 63
-minecraft:camera:
-- meta: 0
-  state: []
-minecraft:pointed_dripstone:
+minecraft:small_amethyst_bud:
 - meta: 0
   state:
-    dripstone_thickness:
-      type: String
-      value: tip
-    hanging:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    dripstone_thickness:
-      type: String
-      value: frustum
-    hanging:
-      type: Byte
-      value: 0
-- meta: 2
-  state:
-    dripstone_thickness:
-      type: String
-      value: middle
-    hanging:
-      type: Byte
-      value: 0
-- meta: 3
-  state:
-    dripstone_thickness:
-      type: String
-      value: base
-    hanging:
-      type: Byte
-      value: 0
-- meta: 4
-  state:
-    dripstone_thickness:
-      type: String
-      value: merge
-    hanging:
-      type: Byte
-      value: 0
-- meta: 8
-  state:
-    dripstone_thickness:
-      type: String
-      value: tip
-    hanging:
-      type: Byte
-      value: 1
-- meta: 9
-  state:
-    dripstone_thickness:
-      type: String
-      value: frustum
-    hanging:
-      type: Byte
-      value: 1
-- meta: 10
-  state:
-    dripstone_thickness:
-      type: String
-      value: middle
-    hanging:
-      type: Byte
-      value: 1
-- meta: 11
-  state:
-    dripstone_thickness:
-      type: String
-      value: base
-    hanging:
-      type: Byte
-      value: 1
-- meta: 12
-  state:
-    dripstone_thickness:
-      type: String
-      value: merge
-    hanging:
-      type: Byte
-      value: 1
-minecraft:cave_vines_head_with_berries:
-- meta: 0
-  state:
-    growing_plant_age:
+    facing_direction:
       type: Int
       value: 0
 - meta: 1
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
       value: 1
 - meta: 2
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
       value: 2
 - meta: 3
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
       value: 3
 - meta: 4
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
       value: 4
 - meta: 5
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
       value: 5
+minecraft:small_dripleaf_block:
+- meta: 0
+  state:
+    direction:
+      type: Int
+      value: 0
+    upper_block_bit:
+      type: Byte
+      value: 0
+- meta: 1
+  state:
+    direction:
+      type: Int
+      value: 0
+    upper_block_bit:
+      type: Byte
+      value: 1
+- meta: 2
+  state:
+    direction:
+      type: Int
+      value: 1
+    upper_block_bit:
+      type: Byte
+      value: 0
+- meta: 3
+  state:
+    direction:
+      type: Int
+      value: 1
+    upper_block_bit:
+      type: Byte
+      value: 1
+- meta: 4
+  state:
+    direction:
+      type: Int
+      value: 2
+    upper_block_bit:
+      type: Byte
+      value: 0
+- meta: 5
+  state:
+    direction:
+      type: Int
+      value: 2
+    upper_block_bit:
+      type: Byte
+      value: 1
 - meta: 6
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 6
+      value: 3
+    upper_block_bit:
+      type: Byte
+      value: 0
 - meta: 7
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 7
-- meta: 8
+      value: 3
+    upper_block_bit:
+      type: Byte
+      value: 1
+minecraft:soul_campfire:
+- meta: 0
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 8
-- meta: 9
+      value: 0
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 1
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 9
-- meta: 10
+      value: 1
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 2
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 10
-- meta: 11
+      value: 2
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 3
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 11
-- meta: 12
+      value: 3
+    extinguished:
+      type: Byte
+      value: 0
+- meta: 4
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 12
-- meta: 13
+      value: 0
+    extinguished:
+      type: Byte
+      value: 1
+- meta: 5
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 13
-- meta: 14
+      value: 1
+    extinguished:
+      type: Byte
+      value: 1
+- meta: 6
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 14
-- meta: 15
+      value: 2
+    extinguished:
+      type: Byte
+      value: 1
+- meta: 7
   state:
-    growing_plant_age:
+    direction:
       type: Int
-      value: 15
-- meta: 16
+      value: 3
+    extinguished:
+      type: Byte
+      value: 1
+minecraft:sticky_piston:
+- meta: 0
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 16
-- meta: 17
+      value: 0
+- meta: 1
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 17
-- meta: 18
+      value: 1
+- meta: 2
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 18
-- meta: 19
+      value: 2
+- meta: 3
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 19
-- meta: 20
+      value: 3
+- meta: 4
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 20
-- meta: 21
+      value: 4
+- meta: 5
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 21
-- meta: 22
+      value: 5
+minecraft:sticky_piston_arm_collision:
+- meta: 0
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 22
-- meta: 23
+      value: 0
+- meta: 1
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 23
-- meta: 24
+      value: 1
+- meta: 2
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 24
-- meta: 25
+      value: 2
+- meta: 3
   state:
-    growing_plant_age:
+    facing_direction:
       type: Int
-      value: 25
-minecraft:crimson_roots:
+      value: 3
+- meta: 4
+  state:
+    facing_direction:
+      type: Int
+      value: 4
+- meta: 5
+  state:
+    facing_direction:
+      type: Int
+      value: 5
+minecraft:structure_block:
+- meta: 0
+  state:
+    structure_block_type:
+      type: String
+      value: data
+- meta: 1
+  state:
+    structure_block_type:
+      type: String
+      value: save
+- meta: 2
+  state:
+    structure_block_type:
+      type: String
+      value: load
+- meta: 3
+  state:
+    structure_block_type:
+      type: String
+      value: corner
+- meta: 4
+  state:
+    structure_block_type:
+      type: String
+      value: invalid
+- meta: 5
+  state:
+    structure_block_type:
+      type: String
+      value: export
+minecraft:structure_void:
+- meta: 0
+  state:
+    structure_void_type:
+      type: String
+      value: void
+- meta: 1
+  state:
+    structure_void_type:
+      type: String
+      value: air
+minecraft:target:
 - meta: 0
   state: []
-minecraft:end_portal:
-- meta: 0
-  state: []
-minecraft:azalea_leaves:
-- meta: 0
-  state:
-    persistent_bit:
-      type: Byte
-      value: 0
-    update_bit:
-      type: Byte
-      value: 0
-- meta: 1
-  state:
-    persistent_bit:
-      type: Byte
-      value: 0
-    update_bit:
-      type: Byte
-      value: 1
-- meta: 2
-  state:
-    persistent_bit:
-      type: Byte
-      value: 1
-    update_bit:
-      type: Byte
-      value: 0
-- meta: 3
-  state:
-    persistent_bit:
-      type: Byte
-      value: 1
-    update_bit:
-      type: Byte
-      value: 1
-minecraft:repeating_command_block:
-- meta: 0
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 5
-- meta: 8
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 9
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 10
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 11
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 12
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 13
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 5
-minecraft:command_block:
-- meta: 0
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    conditional_bit:
-      type: Byte
-      value: 0
-    facing_direction:
-      type: Int
-      value: 5
-- meta: 8
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 9
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 10
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 11
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 12
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 13
-  state:
-    conditional_bit:
-      type: Byte
-      value: 1
-    facing_direction:
-      type: Int
-      value: 5
-minecraft:amethyst_cluster:
-- meta: 0
-  state:
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    facing_direction:
-      type: Int
-      value: 5
 minecraft:turtle_egg:
 - meta: 0
   state:
@@ -6553,201 +6479,275 @@ minecraft:turtle_egg:
     turtle_egg_count:
       type: String
       value: four_egg
-minecraft:grindstone:
+minecraft:twisting_vines:
 - meta: 0
   state:
-    attachment:
-      type: String
-      value: standing
-    direction:
+    twisting_vines_age:
       type: Int
       value: 0
 - meta: 1
   state:
-    attachment:
-      type: String
-      value: standing
-    direction:
+    twisting_vines_age:
       type: Int
       value: 1
 - meta: 2
   state:
-    attachment:
-      type: String
-      value: standing
-    direction:
+    twisting_vines_age:
       type: Int
       value: 2
 - meta: 3
   state:
-    attachment:
-      type: String
-      value: standing
-    direction:
+    twisting_vines_age:
       type: Int
       value: 3
 - meta: 4
   state:
-    attachment:
-      type: String
-      value: hanging
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 0
+      value: 4
 - meta: 5
   state:
-    attachment:
-      type: String
-      value: hanging
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 1
+      value: 5
 - meta: 6
   state:
-    attachment:
-      type: String
-      value: hanging
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 2
+      value: 6
 - meta: 7
   state:
-    attachment:
-      type: String
-      value: hanging
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 3
+      value: 7
 - meta: 8
   state:
-    attachment:
-      type: String
-      value: side
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 0
+      value: 8
 - meta: 9
   state:
-    attachment:
-      type: String
-      value: side
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 1
+      value: 9
 - meta: 10
   state:
-    attachment:
-      type: String
-      value: side
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 2
+      value: 10
 - meta: 11
   state:
-    attachment:
-      type: String
-      value: side
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 3
+      value: 11
 - meta: 12
   state:
-    attachment:
-      type: String
-      value: multiple
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 0
+      value: 12
 - meta: 13
   state:
-    attachment:
-      type: String
-      value: multiple
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 1
+      value: 13
 - meta: 14
   state:
-    attachment:
-      type: String
-      value: multiple
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 2
+      value: 14
 - meta: 15
   state:
-    attachment:
-      type: String
-      value: multiple
-    direction:
+    twisting_vines_age:
       type: Int
-      value: 3
-minecraft:soul_campfire:
+      value: 15
+- meta: 16
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 16
+- meta: 17
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 17
+- meta: 18
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 18
+- meta: 19
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 19
+- meta: 20
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 20
+- meta: 21
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 21
+- meta: 22
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 22
+- meta: 23
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 23
+- meta: 24
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 24
+- meta: 25
+  state:
+    twisting_vines_age:
+      type: Int
+      value: 25
+minecraft:unknown:
+- meta: 0
+  state: []
+minecraft:warped_nylium:
+- meta: 0
+  state: []
+minecraft:warped_roots:
+- meta: 0
+  state: []
+minecraft:weeping_vines:
 - meta: 0
   state:
-    direction:
+    weeping_vines_age:
       type: Int
-      value: 0
-    extinguished:
-      type: Byte
       value: 0
 - meta: 1
   state:
-    direction:
+    weeping_vines_age:
       type: Int
       value: 1
-    extinguished:
-      type: Byte
-      value: 0
 - meta: 2
   state:
-    direction:
+    weeping_vines_age:
       type: Int
       value: 2
-    extinguished:
-      type: Byte
-      value: 0
 - meta: 3
   state:
-    direction:
+    weeping_vines_age:
       type: Int
       value: 3
-    extinguished:
-      type: Byte
-      value: 0
 - meta: 4
   state:
-    direction:
+    weeping_vines_age:
       type: Int
-      value: 0
-    extinguished:
-      type: Byte
-      value: 1
+      value: 4
 - meta: 5
   state:
-    direction:
+    weeping_vines_age:
       type: Int
-      value: 1
-    extinguished:
-      type: Byte
-      value: 1
+      value: 5
 - meta: 6
   state:
-    direction:
+    weeping_vines_age:
       type: Int
-      value: 2
-    extinguished:
-      type: Byte
-      value: 1
+      value: 6
 - meta: 7
   state:
-    direction:
+    weeping_vines_age:
       type: Int
-      value: 3
-    extinguished:
-      type: Byte
-      value: 1
-minecraft:lodestone:
-- meta: 0
-  state: []
+      value: 7
+- meta: 8
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 8
+- meta: 9
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 9
+- meta: 10
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 10
+- meta: 11
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 11
+- meta: 12
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 12
+- meta: 13
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 13
+- meta: 14
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 14
+- meta: 15
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 15
+- meta: 16
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 16
+- meta: 17
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 17
+- meta: 18
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 18
+- meta: 19
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 19
+- meta: 20
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 20
+- meta: 21
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 21
+- meta: 22
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 22
+- meta: 23
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 23
+- meta: 24
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 24
+- meta: 25
+  state:
+    weeping_vines_age:
+      type: Int
+      value: 25
 ...
