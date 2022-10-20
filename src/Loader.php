@@ -18,7 +18,7 @@ use function array_keys;
 
 final class Loader extends PluginBase{
 
-	protected function onEnable() : void{
+	protected function onDisable() : void{
 		$states = [];
 		$registerNames = [];
 		Closure::bind(
