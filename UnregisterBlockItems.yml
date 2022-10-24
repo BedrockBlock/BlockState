@@ -1,0 +1,8 @@
+---
+minecraft:kelp: minecraft:item.kelp
+minecraft:campfire: minecraft:item.campfire
+minecraft:nether_sprouts: minecraft:item.nether_sprouts
+minecraft:chain: minecraft:item.chain
+minecraft:camera: minecraft:item.camera
+minecraft:soul_campfire: minecraft:item.soul_campfire
+...
