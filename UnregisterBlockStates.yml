@@ -1,20 +1,4 @@
 ---
-minecraft:infested_deepslate:
-- meta: 0
-  state:
-    pillar_axis:
-      type: String
-      value: "y"
-- meta: 1
-  state:
-    pillar_axis:
-      type: String
-      value: x
-- meta: 2
-  state:
-    pillar_axis:
-      type: String
-      value: z
 minecraft:jigsaw:
 - meta: 0
   state:
@@ -208,40 +192,6 @@ minecraft:jigsaw:
     rotation:
       type: Int
       value: 3
-minecraft:large_amethyst_bud:
-- meta: 0
-  state:
-    facing_direction:
-      type: Int
-      value: 0
-- meta: 1
-  state:
-    facing_direction:
-      type: Int
-      value: 1
-- meta: 2
-  state:
-    facing_direction:
-      type: Int
-      value: 2
-- meta: 3
-  state:
-    facing_direction:
-      type: Int
-      value: 3
-- meta: 4
-  state:
-    facing_direction:
-      type: Int
-      value: 4
-- meta: 5
-  state:
-    facing_direction:
-      type: Int
-      value: 5
-minecraft:lodestone:
-- meta: 0
-  state: []
 minecraft:mangrove_leaves:
 - meta: 0
   state:
